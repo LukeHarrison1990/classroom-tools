@@ -1,0 +1,19 @@
+# Build output
+ClassroomToolkit.exe
+tests/Tests.exe
+*.zip
+bin/
+obj/
+release/
+
+# Portable data folders created when running or testing
+Data/
+
+# Editors and OS
+.vs/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini
+.DS_Store

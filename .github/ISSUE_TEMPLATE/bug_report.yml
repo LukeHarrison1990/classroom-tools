@@ -1,0 +1,45 @@
+name: Bug report
+description: Something doesn't work or looks wrong
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: Tool
+      placeholder: "e.g. Countdown Timer, or the launcher"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version and display scaling
+      placeholder: "e.g. Windows 10 LTSC 2019, 125%"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Classroom Toolkit version
+      description: Right-click the icon by the clock and choose About, or check the zip's name.
+      placeholder: "e.g. 1.1.5"
+  - type: dropdown
+    id: where
+    attributes:
+      label: How is it run?
+      options:
+        - From the computer (copied or installed locally)
+        - From a network share
+        - Portable (Data folder beside the program)
+        - Not sure
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, or an error message copied in full, help a lot.
