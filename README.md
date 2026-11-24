@@ -11,6 +11,12 @@
 </p>
 
 <p align="center">
+  <a href="https://lukeharrison1990.github.io/classroom-tools/"><b>Website</b></a> &nbsp;&nbsp;
+  <a href="https://github.com/LukeHarrison1990/classroom-tools/releases/latest"><b>Download</b></a> &nbsp;&nbsp;
+  <a href="docs/deploying.md"><b>Deploying in a school</b></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/LukeHarrison1990/classroom-tools/releases/latest"><img src="https://img.shields.io/github/v/release/LukeHarrison1990/classroom-tools?color=3884ff&label=download" alt="Latest release"></a>
   <a href="https://github.com/LukeHarrison1990/classroom-tools/actions/workflows/build.yml"><img src="https://github.com/LukeHarrison1990/classroom-tools/actions/workflows/build.yml/badge.svg" alt="Build"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/licence-MIT-22c55e" alt="MIT licence"></a>
@@ -204,6 +210,7 @@ src/
 tests/           logic tests (build.bat test)
 assets/          app icon, logo and their sources (assets/branding)
 docs/            deployment guide, screenshots and the readme shipped in the zip
+site/            the website (lukeharrison1990.github.io/classroom-tools)
 ```
 
 ## Contributing

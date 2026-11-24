@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Classroom Toolkit – free classroom tools for Windows</title>
+<meta name="description" content="32 free, open-source classroom tools for Windows: timers, name pickers, traffic lights, quiz games and more. One small program, nothing to install.">
+<meta property="og:title" content="Classroom Toolkit">
+<meta property="og:description" content="32 free classroom tools for Windows: timers, name pickers, traffic lights, quiz games and more.">
+<meta property="og:image" content="https://lukeharrison1990.github.io/classroom-tools/img/social-preview.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#142033">
+<link rel="icon" href="img/icon.svg" type="image/svg+xml">
+<link rel="icon" href="img/icon-32.png" sizes="32x32" type="image/png">
+<link rel="preload" href="fonts/atkinson-hyperlegible-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="./" aria-label="Classroom Toolkit home">
+      <img src="img/logo-dark.svg" alt="Classroom Toolkit" width="260" height="40">
+    </a>
+    <nav aria-label="Main">
+      <a href="#tools">Tools</a>
+      <a href="#screenshots">Screenshots</a>
+      <a href="#schools">For schools</a>
+      <a href="https://github.com/LukeHarrison1990/classroom-tools">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="wrap hero-in">
+      <div class="hero-text">
+        <h1>The little tools a lesson needs, in the corner of your screen.</h1>
+        <p class="lede">A countdown on the board, a fair way to pick who answers, traffic lights for noise, a quiz for the last ten minutes. Classroom Toolkit puts 32 of them one click from the clock, made to be read from the back of the room.</p>
+        <div class="cta">
+          <a class="btn" id="download" href="https://github.com/LukeHarrison1990/classroom-tools/releases/latest">Download for Windows</a>
+          <p class="cta-note" id="download-note">Free for Windows 10 and 11. Nothing to install.</p>
+        </div>
+      </div>
+
+      <div class="board" aria-label="Try the traffic lights">
+        <div class="light" role="group" aria-label="Traffic light">
+          <button class="lamp red" data-i="0" aria-pressed="true" aria-label="Red: silent"></button>
+          <button class="lamp amber" data-i="1" aria-pressed="false" aria-label="Amber: partner voices"></button>
+          <button class="lamp green" data-i="2" aria-pressed="false" aria-label="Green: group discussion"></button>
+        </div>
+        <p class="caption" id="caption" aria-live="polite">Silent – working alone</p>
+        <p class="hint">Try it: click a light, or press <kbd>R</kbd>, <kbd>A</kbd> or <kbd>G</kbd>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="slate">
+    <div class="wrap">
+      <img class="launcher" src="img/launcher.png" alt="The Classroom Toolkit launcher, showing every tool in five colour-coded groups" width="1448" height="884">
+      <div class="facts">
+        <p><b>One small program.</b> A single file smaller than most photos. No installer, no administrator rights, nothing else to set up.</p>
+        <p><b>Your own lists.</b> Class lists, quiz questions and report statements are plain text you can edit, import and share with colleagues.</p>
+        <p><b>Nothing leaves the room.</b> No accounts, no tracking, no internet connection. Everything stays in your Documents folder.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="tools" id="tools">
+    <div class="wrap">
+      <h2>Everything in the box</h2>
+      <p class="sub">Click the icon by the clock to open the launcher, or right-click it for a quick menu of every tool.</p>
+
+      <div class="groups">
+        <div class="group" style="--g: var(--green)">
+          <h3>Classroom</h3>
+          <dl>
+            <dt>Countdown Timer</dt><dd>Turns amber in the last minute and red in the last ten seconds.</dd>
+            <dt>Interval Timer</dt><dd>Repeating work and rest periods.</dd>
+            <dt>Stopwatch</dt><dd>Counts up, with lap times.</dd>
+            <dt>Exam Clock</dt><dd>Start, finish and extra-time finish at a glance.</dd>
+            <dt>Traffic Lights</dt><dd>For noise level or understanding, with your own captions.</dd>
+            <dt>Random Student Picker</dt><dd>Picks a name, or makes random groups.</dd>
+            <dt>Dice</dt><dd>One to six dice.</dd>
+            <dt>Random Number</dt><dd>Any range, with or without repeats.</dd>
+            <dt>Scoreboard</dt><dd>Two to six teams.</dd>
+            <dt>Plenary Prompts</dt><dd>Question starters at six levels of thinking.</dd>
+            <dt>Learning Outcomes</dt><dd>A large note that stays on top.</dd>
+            <dt>Key Words</dt><dd>Key vocabulary that stays on top.</dd>
+            <dt>News Ticker</dt><dd>A scrolling message along the screen.</dd>
+          </dl>
+        </div>
+
+        <div class="group" style="--g: var(--amber)">
+          <h3>On-screen</h3>
+          <dl>
+            <dt>Draw on Screen</dt><dd>Freeze the screen and write over it.</dd>
+            <dt>Spotlight</dt><dd>Darken everything but the pointer.</dd>
+            <dt>Reading Guide</dt><dd>A coloured band that follows the pointer.</dd>
+            <dt>Cover-up</dt><dd>Hide part of the screen.</dd>
+          </dl>
+          <h3 class="later" style="--g: var(--purple)">Quiz games</h3>
+          <dl style="--g: var(--purple)">
+            <dt>Flash Cards</dt><dd>Flip through questions and answers.</dd>
+            <dt>Noughts and Crosses Quiz</dt><dd>Answer correctly to claim a square.</dd>
+            <dt>Four in a Row Quiz</dt><dd>Answer correctly to drop a counter.</dd>
+            <dt>Grid Quiz</dt><dd>Categories and points for up to four teams.</dd>
+          </dl>
+        </div>
+
+        <div class="group" style="--g: var(--blue)">
+          <h3>Teacher</h3>
+          <dl>
+            <dt>Sticky Notes</dt><dd>Notes that stay on your desktop.</dd>
+            <dt>Register Reminders</dt><dd>A banner at the times you choose.</dd>
+            <dt>Exam Countdown</dt><dd>Days to go until exams and deadlines.</dd>
+            <dt>Learn Student Names</dt><dd>Practise names from a folder of photos.</dd>
+            <dt>Report Statement Builder</dt><dd>Report comments with the right name and pronouns.</dd>
+            <dt>Special Characters</dt><dd>Maths, Greek and accents to copy and paste.</dd>
+            <dt>Text Tidy</dt><dd>Change case, sort lists, remove duplicates.</dd>
+          </dl>
+          <h3 class="later" style="--g: var(--teal)">Learner</h3>
+          <dl style="--g: var(--teal)">
+            <dt>Text to Speech</dt><dd>Reads text aloud.</dd>
+            <dt>Speed Reader</dt><dd>One word at a time, at your pace.</dd>
+            <dt>Breathing Exercise</dt><dd>A calm, guided breathing animation.</dd>
+            <dt>Quotes and Goals</dt><dd>Quotes or class goals, full screen.</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="shots" id="screenshots">
+    <div class="wrap">
+      <h2>On the board</h2>
+      <p class="sub">Drag any tool onto the projector screen and press F11. The buttons tuck themselves away until you need them.</p>
+      <div class="gallery">
+        <figure><img src="img/countdown-timer.png" alt="Countdown Timer showing five minutes" loading="lazy" width="960" height="600"><figcaption>Countdown Timer</figcaption></figure>
+        <figure><img src="img/student-picker.png" alt="Random Student Picker showing a picked name" loading="lazy" width="960" height="600"><figcaption>Random Student Picker</figcaption></figure>
+        <figure><img src="img/exam-clock.png" alt="Exam Clock with start, finish and extra-time finish" loading="lazy" width="960" height="600"><figcaption>Exam Clock</figcaption></figure>
+        <figure><img src="img/groups.png" alt="Random groups made from a class list" loading="lazy" width="960" height="600"><figcaption>Random groups</figcaption></figure>
+        <figure><img src="img/noughts-and-crosses.png" alt="Noughts and Crosses Quiz with a winning line" loading="lazy" width="960" height="600"><figcaption>Noughts and Crosses Quiz</figcaption></figure>
+        <figure><img src="img/grid-quiz.png" alt="Grid Quiz board of categories and points" loading="lazy" width="960" height="600"><figcaption>Grid Quiz</figcaption></figure>
+        <figure><img src="img/scoreboard.png" alt="Scoreboard with two teams" loading="lazy" width="960" height="600"><figcaption>Scoreboard</figcaption></figure>
+        <figure><img src="img/plenary-prompts.png" alt="Plenary Prompts showing a question starter" loading="lazy" width="960" height="600"><figcaption>Plenary Prompts</figcaption></figure>
+        <figure><img src="img/report-statements.png" alt="Report Statement Builder" loading="lazy" width="960" height="600"><figcaption>Report Statement Builder</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="schools" id="schools">
+    <div class="wrap schools-in">
+      <div>
+        <h2>Ready for a whole school</h2>
+        <p>Classroom Toolkit is one exe that writes only to each user's Documents folder, so it's easy to roll out to every classroom. Copy it to each PC or run it from a share, and start it at sign-in for the staff who need it.</p>
+        <ul class="ticks">
+          <li>Runs without administrator rights, on Windows 10 1809 (LTSC 2019) and later</li>
+          <li>Starts quietly by the clock, and only one copy ever runs</li>
+          <li>Settings follow staff with folder redirection</li>
+          <li>Open source under the MIT licence, so you can check every line</li>
+        </ul>
+        <a class="btn ghost" href="https://github.com/LukeHarrison1990/classroom-tools/blob/main/docs/deploying.md">Read the deployment guide</a>
+      </div>
+      <figure class="code">
+        <figcaption>Start it at sign-in with a Group Policy registry item</figcaption>
+<pre><code><span class="k">Hive</span>        HKEY_CURRENT_USER
+<span class="k">Key</span>         Software\Microsoft\Windows\CurrentVersion\Run
+<span class="k">Value name</span>  ClassroomToolkit
+<span class="k">Value data</span>  "C:\Program Files\Classroom Toolkit\
+            ClassroomToolkit.exe" --tray</code></pre>
+      </figure>
+    </div>
+  </section>
+
+  <section class="start">
+    <div class="wrap">
+      <h2>Get started in a minute</h2>
+      <ol class="steps">
+        <li><b>Download</b>Get the zip from the button at the top of this page, and extract it anywhere.</li>
+        <li><b>Run it</b>Open ClassroomToolkit.exe. If Windows says it's from an unknown publisher, choose <i>More info</i>, then <i>Run anyway</i>.</li>
+        <li><b>Pick a tool</b>Click the traffic-light icon by the clock. Right-click it and tick <i>Start with Windows</i> to have it ready every day.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="wrap faq-in">
+      <h2>Questions</h2>
+      <div>
+        <details>
+          <summary>Is it really free?</summary>
+          <p>Yes. It's open source under the MIT licence: free to use, copy, change and share, in schools and anywhere else.</p>
+        </details>
+        <details>
+          <summary>Does it work on a Mac, Chromebook or tablet?</summary>
+          <p>No. It's a Windows program, for Windows 10 version 1809 or later and Windows 11.</p>
+        </details>
+        <details>
+          <summary>Where are my class lists kept?</summary>
+          <p>In <code>Documents\Classroom Toolkit</code>, as plain text files. Right-click the icon and choose <i>Open my lists folder</i> to see them. To keep everything on a USB stick instead, make an empty folder called <code>Data</code> beside the program.</p>
+        </details>
+        <details>
+          <summary>How do I update to a new version?</summary>
+          <p>Right-click the icon by the clock and choose <i>Exit</i>, then replace <code>ClassroomToolkit.exe</code> with the new one. Your lists and settings carry over.</p>
+        </details>
+        <details>
+          <summary>Can I suggest a tool or report a problem?</summary>
+          <p>Please do. <a href="https://github.com/LukeHarrison1990/classroom-tools/issues/new/choose">Open an issue on GitHub</a> and tell us about the lesson moment it would help with.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <img src="img/logo.svg" alt="Classroom Toolkit" width="208" height="32">
+    <p>Free and open source under the <a href="https://github.com/LukeHarrison1990/classroom-tools/blob/main/LICENSE">MIT licence</a>. Made by Luke Harrison, and part of <a href="https://harrisontoolbox.com">The Harrison Toolbox</a>.</p>
+    <p><a href="https://github.com/LukeHarrison1990/classroom-tools">Source on GitHub</a> <span aria-hidden="true">/</span> <a href="https://github.com/LukeHarrison1990/classroom-tools/blob/main/CHANGELOG.md">What's new</a> <span aria-hidden="true">/</span> <a href="https://github.com/LukeHarrison1990/classroom-tools/releases">All versions</a></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

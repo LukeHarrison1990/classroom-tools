@@ -11,6 +11,7 @@ carry over from one version to the next.
   simplified drawing with bigger lights at 16 to 32 pixels.
 
 ### Project
+- A website, published to GitHub Pages from `site/`.
 - New README, contributing guide, code of conduct, issue and pull request
   templates, branding (logo, icon sources) and screenshots.
 - `build.bat test` builds and runs the tests; they now run in portable mode,
